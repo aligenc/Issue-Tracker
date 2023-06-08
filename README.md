@@ -37,6 +37,11 @@ This project is an issue tracker web application built with ASP.NET Core Web API
 - IDE: Visual Studio
 - MongoDB management tool: MongoDB Compass
 
+## Testing
+- The backend API includes unit tests using xUnit and Moq.
+- The tests cover various scenarios to ensure the functionality of the API endpoints.
+- To run the tests, navigate to the test project directory and execute the following command: `dotnet test`.
+
 ## Contribution
 - Contributions are welcome! If you would like to contribute to the project, follow these steps:
   1. Fork the repository.

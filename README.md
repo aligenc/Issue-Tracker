@@ -27,6 +27,19 @@ This project is an issue tracker web application built with ASP.NET Core Web API
   - Users can view, create, update, and delete issues using the intuitive UI.
   - Screenshots or a live demo can be added here.
 
+## Authentication
+
+The Issue Tracker API uses token-based authentication with JWT (JSON Web Tokens) to secure API endpoints. To access protected endpoints, users need to obtain a token by providing their username and API key.
+
+To obtain a token, send a POST request to the `/api/account/login` endpoint with the following JSON payload:
+
+`{  
+  "username": "your-username", 
+  "apiKey": "your-api-key"
+}`
+
+The API will respond with a token that should be included in the Authorization header of subsequent API requests. Set the header as follows: `Authorization: Bearer <token>`
+
 ## Folder Structure
 - `Models/` - Contains the models or entities used in the application.
 - `Controllers/` - Contains the backend API controllers that handle incoming requests and produce responses.

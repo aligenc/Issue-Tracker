@@ -63,5 +63,5 @@ The API will respond with a token that should be included in the Authorization h
   4. Open a pull request with a detailed description of your changes.
 
 ## License
-You can use all codes freely ;) 
+Giving a star required! :D After that, you can use all code without any restrictions ;) 
 
